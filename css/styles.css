@@ -634,7 +634,6 @@ text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 gap: 10px;
-border: no;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .subscription-form{
@@ -935,8 +934,6 @@ fill: var(--accent-color);
  display: flex;
  align-items: center;
 justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
     font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -969,6 +966,9 @@ fill: transparent;
 }
 .checkbox-div{
     display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 .input-check {
     appearance: none;
